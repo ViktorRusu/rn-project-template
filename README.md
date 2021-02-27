@@ -6,7 +6,19 @@
    - [Dependencies](#dependencies)
 
 ## <a name="project-structure"></a>Project Structure:
-> [WIP]
+This template follows a very simple project structure:
+- `src`: main container for all the code inside the application.
+  - `assets`: assets(images, audio files ...) used by application. 
+  - `components`: presentational components 
+  - `config`: configuration files. 
+  - `navigators`: react navigation navigators.
+  - `screens`: contains all screens/features. 
+  - `services`: application services, e.g. API clients.
+  - `store`: redux actions, reducers and stores. 
+  - `theme`: base style for the application.
+  - `translations`: application strings.
+  - `App.tsx`: main componente that start the whole application.
+- `index.js`: entry point of the application as per React Native standards.
 
 ## <a name="getting-started"></a>Getting Started
 1. Clone the repository
@@ -38,4 +50,10 @@ npx react-native run-ios
 ```
 
 ## <a name="dependencies"></a>Dependencies
-> [WIP]
+- [Axios](https://github.com/axios/axios) for networking
+- [Async Storage](https://github.com/react-native-async-storage/async-storage) as a persistence layer
+- [i18Next](https://www.i18next.com/) for internationalization
+- [Redux](https://redux.js.org/) for state management 
+- [Redux Toolkit](https://redux-toolkit.js.org/) to make redux easier
+- [Redux Persist](https://github.com/rt2zz/redux-persist) to persist the redux state
+- [React Navigation](https://reactnavigation.org/) for route handling and navigation 
