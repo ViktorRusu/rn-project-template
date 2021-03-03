@@ -50,10 +50,11 @@ npx react-native run-ios
 ```
 
 ## <a name="dependencies"></a>Dependencies
-- [Axios](https://github.com/axios/axios) for networking
-- [Async Storage](https://github.com/react-native-async-storage/async-storage) as a persistence layer
-- [i18Next](https://www.i18next.com/) for internationalization
-- [Redux](https://redux.js.org/) for state management 
-- [Redux Toolkit](https://redux-toolkit.js.org/) to make redux easier
-- [Redux Persist](https://github.com/rt2zz/redux-persist) to persist the redux state
-- [React Navigation](https://reactnavigation.org/) for route handling and navigation 
+- [axios](https://github.com/axios/axios) for networking
+- [async-storage](https://github.com/react-native-async-storage/async-storage) as a persistence layer
+- [i18next](https://www.i18next.com/) for internationalization
+- [redux](https://redux.js.org/) for state management 
+- [redux-toolkit](https://redux-toolkit.js.org/) to make redux easier
+- [redux-persist](https://github.com/rt2zz/redux-persist) to persist the redux state
+- [reactNavigation](https://reactnavigation.org/) for route handling and navigation
+- [react-native-svg](https://github.com/react-native-svg/react-native-svg)  for svg images support
