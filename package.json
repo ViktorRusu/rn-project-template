@@ -13,7 +13,7 @@
     "@react-native-async-storage/async-storage": "^1.14.1",
     "@react-navigation/native": "^5.9.2",
     "@react-navigation/stack": "^5.14.2",
-    "@reduxjs/toolkit": "^1.5.0",
+    "@reduxjs/toolkit": "^1.6.1",
     "@svgr/core": "^4.3.3",
     "@types/react-redux": "^7.1.16",
     "axios": "^0.21.1",
