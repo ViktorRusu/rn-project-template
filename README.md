@@ -9,8 +9,9 @@
 This template follows a very simple project structure:
 - `src`: main container for all the code inside the application.
   - `assets`: assets(images, audio files ...) used by application. 
-  - `components`: presentational components 
+  - `components`: presentational components. 
   - `config`: configuration files. 
+  - `hooks`: hook files.
   - `navigators`: react navigation navigators.
   - `screens`: contains all screens/features. 
   - `services`: application services, e.g. API clients.
@@ -57,4 +58,5 @@ npx react-native run-ios
 - [redux-toolkit](https://redux-toolkit.js.org/) to make redux easier
 - [redux-persist](https://github.com/rt2zz/redux-persist) to persist the redux state
 - [reactNavigation](https://reactnavigation.org/) for route handling and navigation
-- [react-native-svg](https://github.com/react-native-svg/react-native-svg)  for svg images support
+- [react-native-svg](https://github.com/react-native-svg/react-native-svg) for svg images support
+- [react-native-netinfo](https://github.com/react-native-netinfo/react-native-netinfo) to get information about the connection(state, type, quality)
