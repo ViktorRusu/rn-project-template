@@ -52,7 +52,7 @@ npx react-native run-ios
 
 ## <a name="dependencies"></a>Dependencies
 - [axios](https://github.com/axios/axios) for networking
-- [async-storage](https://github.com/react-native-async-storage/async-storage) as a persistence layer
+- [react-native-mmkv](https://github.com/Tencent/MMKV) as a persistence layer
 - [i18next](https://www.i18next.com/) for internationalization
 - [redux](https://redux.js.org/) for state management 
 - [redux-toolkit](https://redux-toolkit.js.org/) to make redux easier

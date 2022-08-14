@@ -1,5 +1,4 @@
 import {combineReducers, configureStore} from '@reduxjs/toolkit';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import {persistReducer, persistStore} from 'redux-persist';
 import {PersistConfig} from 'redux-persist/es/types';
 import {
@@ -12,6 +11,7 @@ import {
 } from 'redux-persist/es/constants';
 
 import CounterReducer from './counter/index';
+import {reduxStorage} from '../utils/storage';
 
 const reducers = combineReducers({
   Counter: CounterReducer,
@@ -19,7 +19,7 @@ const reducers = combineReducers({
 
 const persistConfig: PersistConfig<any> = {
   key: 'root',
-  storage: AsyncStorage,
+  storage: reduxStorage,
   whitelist: ['Counter'],
 };
 
@@ -27,7 +27,7 @@ const persistedReducer = persistReducer(persistConfig, reducers);
 
 const store = configureStore({
   reducer: persistedReducer,
-  middleware: (getDefaultMiddleware) => {
+  middleware: getDefaultMiddleware => {
     return getDefaultMiddleware({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
