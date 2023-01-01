@@ -16,7 +16,7 @@
     "@reduxjs/toolkit": "^1.7.1",
     "@svgr/core": "^4.3.3",
     "@types/react-redux": "^7.1.16",
-    "axios": "^0.24.0",
+    "axios": "^1.2.2",
     "i18next": "^19.8.7",
     "react": "17.0.2",
     "react-i18next": "^11.11.0",
