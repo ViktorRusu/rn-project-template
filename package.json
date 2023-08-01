@@ -27,7 +27,7 @@
     "react-native-safe-area-context": "^3.4.1",
     "react-native-screens": "^3.22.1",
     "react-native-svg": "^12.1.0",
-    "react-native-svg-transformer": "^1.0.0",
+    "react-native-svg-transformer": "^1.1.0",
     "react-redux": "^7.2.2",
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0"
