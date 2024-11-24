@@ -1,4 +1,4 @@
-import {combineReducers, configureStore} from '@reduxjs/toolkit';
+import {combineReducers, configureStore, Reducer} from '@reduxjs/toolkit';
 import {persistReducer, persistStore} from 'redux-persist';
 import {PersistConfig} from 'redux-persist/es/types';
 import {
@@ -13,7 +13,7 @@ import {
 import CounterReducer from './counter/index';
 import {reduxStorage} from '../utils/storage';
 
-const reducers = combineReducers({
+const reducers: Reducer<any, any> = combineReducers({
   Counter: CounterReducer,
 });
 

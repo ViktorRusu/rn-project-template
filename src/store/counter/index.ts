@@ -24,11 +24,6 @@ const counterSlice = createSlice({
 
 export const {increment, decrement} = counterSlice.actions;
 
-const counterStateSelector = (state: RootState) => state.Counter;
-
-export const counterSelector = createSelector(
-  counterStateSelector,
-  (state: CounterState) => state,
-);
+export const counterSelector = (state: RootState) => state.Counter;
 
 export default counterSlice.reducer;

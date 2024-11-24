@@ -1,12 +1,12 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
-import {counterSelector, increment, decrement} from '../store/counter';
+import {increment, decrement, counterSelector} from '../store/counter';
 
 const Counter = () => {
   const dispatch = useDispatch();
 
-  const {value} = useSelector(counterSelector);
+  const { value } = useSelector(counterSelector);
 
   const onIncrementPressed = () => {
     dispatch(increment());
